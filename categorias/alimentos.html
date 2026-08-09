@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta name="format-detection" content="telephone=no,email=no,address=no">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Alimentos - AllAsian</title>
+
+    <!-- CSS PRINCIPAL: está una carpeta atrás -->
+    <link rel="stylesheet" href="../style.css">
+
+    <!-- ICONOS -->
+    <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    >
+
+    <!-- FUENTE POPPINS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link
+        rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+    >
+</head>
+
+<body>
+
+    <!-- =========================
+         NAVBAR
+    ========================== -->
+
+    <header class="navbar">
+
+        <div class="left-nav">
+            <a href="../catalogo.html">Catálogo</a>
+        </div>
+
+        <div class="left-nav">
+            <a href="../nosotros.html">Nosotros</a>
+        </div>
+
+        <div class="left-nav">
+            <a href="../testimonios.html">
+                Clientes que han comprado...
+            </a>
+        </div>
+
+        <div class="center-nav">
+            <a href="../index.html">AllAsian</a>
+        </div>
+
+        <div class="right-nav">
+            <i class="fa-regular fa-user"></i>
+        </div>
+
+    </header>
+
+
+    <!-- =========================
+         MENÚ DE CATEGORÍAS
+    ========================== -->
+
+    <section class="menu-categorias">
+
+        <button
+            type="button"
+            class="boton-categorias"
+            id="botonCategorias"
+            aria-expanded="false"
+            aria-controls="listaCategorias"
+        >
+
+            <i class="fa-solid fa-bars"></i>
+
+            <span>Categorías</span>
+
+            <i class="fa-solid fa-chevron-down flecha-menu"></i>
+
+        </button>
+
+
+        <nav class="lista-categorias" id="listaCategorias">
+
+            <a href="ramen.html">Ramen</a>
+
+            <a href="sodas.html">Sodas</a>
+
+            <a href="creamerscafe.html">
+                Creamers de café
+            </a>
+
+            <a href="cafesmolidos.html">
+                Cafés molidos
+            </a>
+
+            <a href="galletas.html">
+                Galletas
+            </a>
+
+            <a href="sabritas.html">
+                Sabritas
+            </a>
+
+            <a href="cajagalletas.html">
+                Cajas de galletas
+            </a>
+
+            <a href="cerveza.html">
+                Cervezas
+            </a>
+
+            <a href="LHyS.html">
+                Lavandería, hogar y salud
+            </a>
+
+            <a href="salsas.html">
+                Salsas
+            </a>
+
+            <a href="dulces.html">
+                Dulces
+            </a>
+
+            <a href="jugos.html">
+                Jugos
+            </a>
+
+            <a href="chocolates.html">
+                Chocolates
+            </a>
+
+            <a href="alimentos.html" class="categoria-activa">
+                Alimentos
+            </a>
+
+        </nav>
+
+    </section>
+
+
+   <main class="contenido-categoria">
+
+<section class="banner-categoria">
+
+    <div class="banner-contenido">
+
+        <h1>🍜 Alimentos</h1>
+
+        <p>
+            Descubre una gran variedad de alimentos asiáticos auténticos,
+            cuidadosamente seleccionados para ofrecerte los mejores sabores.
+        </p>
+
+    </div>
+
+</section>
+
+<!-- =========================
+     PRODUCTOS DE ALIMENTOS
+========================== -->
+
+<section class="productos">
+
+    <div class="productos-titulo">
+
+        <h2>Productos disponibles</h2>
+
+        <p>
+            Descubre nuestra selección de alimentos importados.
+        </p>
+
+    </div>
+
+
+    <!-- ESTE CONTENEDOR HACE LAS 4 COLUMNAS -->
+
+    <div class="product-grid">
+
+
+        <!-- PRODUCTO 1 -->
+
+        <article class="product-card">
+
+            <span class="badge">Novedad</span>
+
+            <div class="product-image">
+
+                <img
+                    src="../imgs/llegada9.JPEG"
+                    alt="Caja Bisquik Mix Cinnamon Toast Crunch"
+                >
+
+            </div>
+
+            <div class="product-info">
+
+                <h3>
+                    Caja Bisquik Mix Cinnamon Toast Crunch
+                </h3>
+
+                <p class="price">
+                    $150.00 MXN
+                </p>
+
+                <div class="botones-producto">
+
+                    <button
+                        type="button"
+                        class="btn-comprar boton-informacion"
+                        data-nombre="Caja Bisquik Mix Cinnamon Toast Crunch"
+                        data-imagen="../imgs/llegada9.JPEG"
+                        data-precio="$150.00 MXN"
+                        data-descripcion="Mezcla para preparar pancakes con sabor inspirado en Cinnamon Toast Crunch."
+                        data-contenido="Contenido: consultar empaque."
+                        data-origen="Producto importado."
+                    >
+                        Ver más sobre este producto
+                    </button>
+
+                    <a
+                        href="../imgs/llegada9.JPEG"
+                        download="Caja-Bisquik-Mix-CinnamonToast-Crunch.JPEG"
+                        class="btn-guardar"
+                    >
+                        <i class="fa-solid fa-download"></i>
+
+                        Guardar imagen
+                    </a>
+
+                </div>
+
+            </div>
+
+        </article>
+
+
+        <!-- PRODUCTO 2 -->
+
+        <article class="product-card">
+
+            <span class="badge">Novedad</span>
+
+            <div class="product-image">
+
+                <img
+                    src="../imgs/producto2.JPEG"
+                    alt="Producto 2"
+                >
+
+            </div>
+
+            <div class="product-info">
+
+                <h3>
+                    Nombre del producto 2
+                </h3>
+
+                <p class="price">
+                    $X.XX MXN
+                </p>
+
+                <div class="botones-producto">
+
+                    <button
+                        type="button"
+                        class="btn-comprar boton-informacion"
+                        data-nombre="Nombre del producto 2"
+                        data-imagen="../imgs/producto2.JPEG"
+                        data-precio="$X.XX MXN"
+                        data-descripcion="Descripción del producto 2."
+                        data-contenido="Contenido: X gramos."
+                        data-origen="Producto importado."
+                    >
+                        Ver más sobre este producto
+                    </button>
+
+                    <a
+                        href="../imgs/producto2.JPEG"
+                        download="producto2.JPEG"
+                        class="btn-guardar"
+                    >
+                        <i class="fa-solid fa-download"></i>
+
+                        Guardar imagen
+                    </a>
+
+                </div>
+
+            </div>
+
+        </article>
+
+
+        <!-- PRODUCTO 3 -->
+
+        <article class="product-card">
+
+            <span class="badge">Novedad</span>
+
+            <div class="product-image">
+
+                <img
+                    src="../imgs/producto3.JPEG"
+                    alt="Producto 3"
+                >
+
+            </div>
+
+            <div class="product-info">
+
+                <h3>
+                    Nombre del producto 3
+                </h3>
+
+                <p class="price">
+                    $X.XX MXN
+                </p>
+
+                <div class="botones-producto">
+
+                    <button
+                        type="button"
+                        class="btn-comprar boton-informacion"
+                        data-nombre="Nombre del producto 3"
+                        data-imagen="../imgs/producto3.JPEG"
+                        data-precio="$X.XX MXN"
+                        data-descripcion="Descripción del producto 3."
+                        data-contenido="Contenido: X gramos."
+                        data-origen="Producto importado."
+                    >
+                        Ver más sobre este producto
+                    </button>
+
+                    <a
+                        href="../imgs/producto3.JPEG"
+                        download="producto3.JPEG"
+                        class="btn-guardar"
+                    >
+                        <i class="fa-solid fa-download"></i>
+
+                        Guardar imagen
+                    </a>
+
+                </div>
+
+            </div>
+
+        </article>
+
+
+        <!-- PRODUCTO 4 -->
+
+        <article class="product-card">
+
+            <span class="badge">Novedad</span>
+
+            <div class="product-image">
+
+                <img
+                    src="../imgs/producto4.JPEG"
+                    alt="Producto 4"
+                >
+
+            </div>
+
+            <div class="product-info">
+
+                <h3>
+                    Nombre del producto 4
+                </h3>
+
+                <p class="price">
+                    $X.XX MXN
+                </p>
+
+                <div class="botones-producto">
+
+                    <button
+                        type="button"
+                        class="btn-comprar boton-informacion"
+                        data-nombre="Nombre del producto 4"
+                        data-imagen="../imgs/producto4.JPEG"
+                        data-precio="$X.XX MXN"
+                        data-descripcion="Descripción del producto 4."
+                        data-contenido="Contenido: X gramos."
+                        data-origen="Producto importado."
+                    >
+                        Ver más sobre este producto
+                    </button>
+
+                    <a
+                        href="../imgs/producto4.JPEG"
+                        download="producto4.JPEG"
+                        class="btn-guardar"
+                    >
+                        <i class="fa-solid fa-download"></i>
+
+                        Guardar imagen
+                    </a>
+
+                </div>
+
+            </div>
+
+        </article>
+
+
+    </div>
+
+</section>
+
+
+
+
+
+    <!-- =========================
+         FOOTER
+    ========================== -->
+
+    <footer class="footer">
+
+        <div class="footer-contenedor">
+
+            <div class="footer-logo">
+
+                <!-- La carpeta imgs está una carpeta atrás -->
+
+                <img
+                    src="../imgs/allasianicon.jpg"
+                    alt="Logo de AllAsian"
+                >
+
+                <h3>AllAsian</h3>
+
+                <p>
+                    ¡Disfruta nuevos snacks aquí!
+                </p>
+
+            </div>
+
+
+            <div class="footer-links">
+                <!-- Aquí puedes agregar enlaces posteriormente -->
+            </div>
+
+
+            <div class="footer-redes">
+
+                <h3>Puedes seguirnos en</h3>
+
+                <a
+                    href="https://www.facebook.com/profile.php?id=61576364901457"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="Facebook de AllAsian"
+                >
+                    <i class="fa-brands fa-facebook"></i>
+                </a>
+
+            </div>
+
+
+            <div class="footer-contacto">
+
+                <h3>Contáctanos</h3>
+
+                <p>
+                    📞 443 893 1732
+                </p>
+
+                <p>
+                    📍 Morelia, Michoacán
+                    (más ciudades de Michoacán próximamente).
+                </p>
+
+            </div>
+
+        </div>
+
+    </footer>
+
+
+    <!-- JavaScript principal: está una carpeta atrás -->
+
+    <script src="../script.js"></script>
+
+</body>
+
+</html>
