@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+    <meta name="format-detection" content="telephone=no,email=no,address=no">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Creamers de café - AllAsian</title>
+
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="../categorias.css">
+
+    <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    >
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link
+        rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+    >
+
+</head>
+
+<body class="pagina-categoria pagina-creamers">
+
+
+    <!-- NAVBAR -->
+
+    <header class="navbar">
+
+        <div class="left-nav">
+            <a href="../catalogo.html">Catálogo</a>
+        </div>
+
+        <div class="left-nav">
+            <a href="../nosotros.html">Nosotros</a>
+        </div>
+
+        <div class="center-nav">
+            <a href="../index.html">AllAsian</a>
+        </div>
+
+        <div class="right-nav">
+            <i class="fa-regular fa-user"></i>
+        </div>
+
+    </header>
+
+
+    <!-- CATEGORÍAS -->
+
+    <section class="menu-categorias">
+
+        <button
+            type="button"
+            class="boton-categorias"
+            id="botonCategorias"
+            aria-expanded="false"
+            aria-controls="listaCategorias"
+        >
+
+            <span class="texto-categoria">
+                <i class="fa-solid fa-bars"></i>
+                Categorías
+            </span>
+
+            <i class="fa-solid fa-chevron-down flecha-menu"></i>
+
+        </button>
+
+
+        <nav class="lista-categorias" id="listaCategorias">
+
+            <a href="ramen.html">Ramen</a>
+            <a href="alimentos.html">Alimentos</a>
+
+            <a
+                href="creamerscafe.html"
+                class="categoria-activa"
+            >
+                Creamers de café
+            </a>
+
+            <a href="cafesmolidos.html">Cafés molidos</a>
+            <a href="galletas.html">Galletas</a>
+            <a href="sabritas.html">Sabritas</a>
+ 
+            <a href="cerveza.html">Cervezas</a>
+            <a href="LHyS.html">Lavandería, hogar y salud</a>
+            <a href="salsas.html">Salsas</a>
+            <a href="dulces.html">Dulces</a>
+            <a href="jugos.html">Jugos</a>
+            <a href="chocolates.html">Chocolates</a>
+            <a href="sodas.html">Sodas</a>
+
+        </nav>
+
+    </section>
+
+
+    <!-- UBICACIÓN + BUSCADOR -->
+
+    <section class="barra-compra-busqueda">
+
+        <div class="barra-compra-contenido">
+
+            <div class="ubicacion-compra">
+
+                <div class="ubicacion-icono">
+                    <i class="fa-solid fa-location-dot"></i>
+                </div>
+
+                <div class="ubicacion-texto">
+
+                    <span>
+                        Compras y entregas en
+                    </span>
+
+                    <strong>
+                        Morelia, Michoacán
+                    </strong>
+
+                </div>
+
+            </div>
+
+
+            <form
+                class="buscador-productos"
+                id="formularioBusqueda"
+            >
+
+                <div class="buscador-icono">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
+
+                <input
+                    type="search"
+                    id="buscadorProductos"
+                    placeholder="Buscar creamers, sabores o marcas..."
+                    autocomplete="off"
+                    aria-label="Buscar creamers de café"
+                >
+
+                <button type="submit">
+
+                    <span>Buscar</span>
+
+                    <i class="fa-solid fa-magnifying-glass"></i>
+
+                </button>
+
+            </form>
+
+        </div>
+
+
+        <p
+            class="contador-resultados"
+            id="contadorResultados"
+        >
+            Mostrando todos los creamers
+        </p>
+
+    </section>
+
+
+    <!-- PRODUCTOS -->
+
+    <main class="contenido-categoria">
+
+        <section class="productos">
+
+            <div class="productos-titulo">
+
+                <h2>
+                    Todos los creamers de café
+                </h2>
+
+                <p>
+                    Descubre nuestra selección de creamers de café importados.
+                </p>
+
+            </div>
+
+
+            <div
+                class="product-grid"
+                id="listaProductos"
+            ></div>
+
+
+            <div
+                class="sin-resultados"
+                id="sinResultados"
+            >
+
+                <i class="fa-solid fa-magnifying-glass"></i>
+
+                <h3>
+                    No encontramos ese creamer
+                </h3>
+
+                <p>
+                    Prueba buscando otra marca, sabor o tipo de creamer.
+                </p>
+
+                <button
+                    type="button"
+                    id="botonLimpiarBusqueda"
+                >
+                    Mostrar todos los creamers
+                </button>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- FOOTER -->
+
+    <footer class="footer">
+
+        <div class="footer-contenedor">
+
+            <div class="footer-logo">
+
+                <img
+                    src="../imgs/allasianicon.jpg"
+                    alt="Logo de AllAsian"
+                >
+
+                <h3>AllAsian</h3>
+
+                <p>
+                    ¡Disfruta nuevos snacks aquí!
+                </p>
+
+            </div>
+
+
+            <div class="footer-links"></div>
+
+
+            <div class="footer-redes">
+
+                <h3>
+                    Puedes seguirnos en
+                </h3>
+
+                <a
+                    href="https://www.facebook.com/profile.php?id=61576364901457"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="Facebook de AllAsian"
+                >
+                    <i class="fa-brands fa-facebook"></i>
+                </a>
+
+            </div>
+
+
+            <div class="footer-contacto">
+
+                <h3>Contáctanos</h3>
+
+                <p>
+                    📞 443 893 1732
+                </p>
+
+                <p>
+                    📍 Morelia, Michoacán
+                </p>
+
+            </div>
+
+        </div>
+
+    </footer>
+
+
+    <script src="../js/script.js"></script>
+    <script src="../js/creamerscafe.js"></script>
+
+</body>
+
+</html>

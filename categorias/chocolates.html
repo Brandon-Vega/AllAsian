@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+    <meta name="format-detection" content="telephone=no,email=no,address=no">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Chocolates - AllAsian</title>
+
+    <!-- CSS GENERAL -->
+    <link rel="stylesheet" href="../style.css">
+
+    <!-- CSS DE TODAS LAS CATEGORÍAS -->
+    <link rel="stylesheet" href="../categorias.css">
+
+    <!-- ICONOS -->
+    <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    >
+
+    <!-- FUENTE POPPINS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link
+        rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+    >
+
+</head>
+
+
+<body class="pagina-categoria pagina-chocolates">
+
+
+    <!-- =========================
+         NAVBAR
+    ========================== -->
+
+    <header class="navbar">
+
+        <div class="left-nav">
+            <a href="../catalogo.html">
+                Catálogo
+            </a>
+        </div>
+
+        <div class="left-nav">
+            <a href="../nosotros.html">
+                Nosotros
+            </a>
+        </div>
+
+        <div class="center-nav">
+            <a href="../index.html">
+                AllAsian
+            </a>
+        </div>
+
+        <div class="right-nav">
+            <i class="fa-regular fa-user"></i>
+        </div>
+
+    </header>
+
+
+
+    <!-- =========================
+         MENÚ DE CATEGORÍAS
+    ========================== -->
+
+    <section class="menu-categorias">
+
+        <button
+            type="button"
+            class="boton-categorias"
+            id="botonCategorias"
+            aria-expanded="false"
+            aria-controls="listaCategorias"
+        >
+
+            <span class="texto-categoria">
+
+                <i class="fa-solid fa-bars"></i>
+
+                Categorías
+
+            </span>
+
+            <i class="fa-solid fa-chevron-down flecha-menu"></i>
+
+        </button>
+
+
+        <nav
+            class="lista-categorias"
+            id="listaCategorias"
+        >
+
+            <a href="ramen.html">
+                Ramen
+            </a>
+
+            <a href="alimentos.html">
+                Alimentos
+            </a>
+
+            <a href="creamerscafe.html">
+                Creamers de café
+            </a>
+
+            <a href="cafesmolidos.html">
+                Cafés molidos
+            </a>
+
+            <a href="galletas.html">
+                Galletas
+            </a>
+
+            <a href="sabritas.html">
+                Sabritas
+            </a>
+
+
+            <a href="cerveza.html">
+                Cervezas
+            </a>
+
+            <a href="LHyS.html">
+                Lavandería, hogar y salud
+            </a>
+
+            <a href="salsas.html">
+                Salsas
+            </a>
+
+            <a href="dulces.html">
+                Dulces
+            </a>
+
+            <a href="jugos.html">
+                Jugos
+            </a>
+
+            <!-- CHOCOLATES ACTIVO -->
+
+            <a
+                href="chocolates.html"
+                class="categoria-activa"
+            >
+                Chocolates
+            </a>
+
+            <a href="sodas.html">
+                Sodas
+            </a>
+
+        </nav>
+
+    </section>
+
+
+
+    <!-- =========================
+         UBICACIÓN + BUSCADOR
+    ========================== -->
+
+    <section class="barra-compra-busqueda">
+
+        <div class="barra-compra-contenido">
+
+
+            <!-- UBICACIÓN -->
+
+            <div class="ubicacion-compra">
+
+                <div class="ubicacion-icono">
+
+                    <i class="fa-solid fa-location-dot"></i>
+
+                </div>
+
+                <div class="ubicacion-texto">
+
+                    <span>
+                        Compras y entregas en
+                    </span>
+
+                    <strong>
+                        Morelia, Michoacán
+                    </strong>
+
+                </div>
+
+            </div>
+
+
+
+            <!-- BUSCADOR DE CHOCOLATES -->
+
+            <form
+                class="buscador-productos"
+                id="formularioBusqueda"
+            >
+
+                <div class="buscador-icono">
+
+                    <i class="fa-solid fa-magnifying-glass"></i>
+
+                </div>
+
+                <input
+                    type="search"
+                    id="buscadorProductos"
+                    placeholder="Buscar chocolates, sabores o marcas..."
+                    autocomplete="off"
+                    aria-label="Buscar chocolates"
+                >
+
+                <button type="submit">
+
+                    <span>
+                        Buscar
+                    </span>
+
+                    <i class="fa-solid fa-magnifying-glass"></i>
+
+                </button>
+
+            </form>
+
+        </div>
+
+
+        <p
+            class="contador-resultados"
+            id="contadorResultados"
+        >
+            Mostrando todos los chocolates
+        </p>
+
+    </section>
+
+
+
+    <!-- =========================
+         CONTENIDO PRINCIPAL
+    ========================== -->
+
+    <main class="contenido-categoria">
+
+
+        <!-- =========================
+             PRODUCTOS
+        ========================== -->
+
+        <section class="productos">
+
+            <div class="productos-titulo">
+
+                <h2>
+                    Todos los chocolates
+                </h2>
+
+                <p>
+                    Descubre nuestra selección de chocolates importados.
+                </p>
+
+            </div>
+
+
+
+            <!--
+                chocolates.js inserta aquí
+                todas las tarjetas
+            -->
+
+            <div
+                class="product-grid"
+                id="listaProductos"
+            ></div>
+
+
+
+            <!-- =========================
+                 SIN RESULTADOS
+            ========================== -->
+
+            <div
+                class="sin-resultados"
+                id="sinResultados"
+            >
+
+                <i class="fa-solid fa-magnifying-glass"></i>
+
+                <h3>
+                    No encontramos ese chocolate
+                </h3>
+
+                <p>
+                    Prueba buscando otra marca, sabor
+                    o tipo de chocolate.
+                </p>
+
+                <button
+                    type="button"
+                    id="botonLimpiarBusqueda"
+                >
+                    Mostrar todos los chocolates
+                </button>
+
+            </div>
+
+        </section>
+
+
+    </main>
+
+
+
+    <!-- =========================
+         FOOTER
+    ========================== -->
+
+    <footer class="footer">
+
+        <div class="footer-contenedor">
+
+
+            <div class="footer-logo">
+
+                <img
+                    src="../imgs/allasianicon.jpg"
+                    alt="Logo de AllAsian"
+                >
+
+                <h3>
+                    AllAsian
+                </h3>
+
+                <p>
+                    ¡Disfruta nuevos snacks aquí!
+                </p>
+
+            </div>
+
+
+
+            <div class="footer-links">
+            </div>
+
+
+
+            <div class="footer-redes">
+
+                <h3>
+                    Puedes seguirnos en
+                </h3>
+
+                <a
+                    href="https://www.facebook.com/profile.php?id=61576364901457"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="Facebook de AllAsian"
+                >
+
+                    <i class="fa-brands fa-facebook"></i>
+
+                </a>
+
+            </div>
+
+
+
+            <div class="footer-contacto">
+
+                <h3>
+                    Contáctanos
+                </h3>
+
+                <p>
+                    📞 443 893 1732
+                </p>
+
+                <p>
+                    📍 Morelia, Michoacán
+                </p>
+
+            </div>
+
+        </div>
+
+    </footer>
+
+
+
+    <!-- =========================
+         JAVASCRIPT GENERAL
+    ========================== -->
+
+    <script src="../js/script.js"></script>
+
+
+    <!-- =========================
+         JAVASCRIPT DE CHOCOLATES
+    ========================== -->
+
+    <script src="../js/chocolates.js"></script>
+
+
+</body>
+
+</html>
