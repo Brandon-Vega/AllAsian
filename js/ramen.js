@@ -10,16 +10,16 @@
 const productosRamen = [
 
     {
-        nombre: "Ramen xyz",
-        precio: "$300.00 MXN",
+        nombre: "Ramen Arih Gochujang Butter 4 Pack",
+        precio: "$320.00 MXN",
 
-        imagen: "ramen/ramen1.png",
+        imagen: "/ramen/arihbutter.png",
 
         busqueda:
-            "ramen ramens noodle noodles fideos sopa spicy picante",
+            "ramen ramens noodle noodles fideos mantequilla butter spicy picante arih bts corea korea",
 
         descripcion:
-            "Ramen xyz.",
+            "Ramen Arih con contenido de 4 bolsas de 135g cada una.",
 
         contenido:
             "Contenido: consultar empaque.",
@@ -30,16 +30,16 @@ const productosRamen = [
 
 
     {
-        nombre: "Ramen xyz",
-        precio: "$300.00 MXN",
+        nombre: "Ramen Buldak Birria 5 Pack",
+        precio: "$280.00 MXN",
 
-        imagen: "ramen/ramen2.png",
+        imagen: "/ramen/buldakbirria.png",
 
         busqueda:
-            "ramen ramens noodle noodles fideos sopa spicy picante",
+            "ramen ramens noodle noodles fideos sopa spicy picante birria buldak",
 
         descripcion:
-            "Ramen xyz.",
+            "Ramen Buldak Birria con contenido de 5 bolsas de 130g cada una.",
 
         contenido:
             "Contenido: consultar empaque.",
@@ -50,16 +50,16 @@ const productosRamen = [
 
 
     {
-        nombre: "Ramen xyz",
-        precio: "$300.00 MXN",
+        nombre: "Ramen Tapatio Pack Birria 4 Pack",
+        precio: "$200.00 MXN",
 
-        imagen: "ramen/ramen3.png",
+        imagen: "/ramen/tapatiopackbirria.png",
 
         busqueda:
-            "ramen ramens noodle noodles fideos sopa spicy picante",
+            "ramen ramens noodle noodles fideos sopa spicy picante tapatio birria",
 
         descripcion:
-            "Ramen xyz.",
+            "Ramen Tapatio con contenido de 4 bolsas de 120g cada una.",
 
         contenido:
             "Contenido: consultar empaque.",
@@ -70,16 +70,16 @@ const productosRamen = [
 
 
     {
-        nombre: "Ramen xyz",
-        precio: "$300.00 MXN",
+        nombre: "Ramen Mep Black Pepper & Beef 4 Pack",
+        precio: "$250.00 MXN",
 
-        imagen: "ramen/ramen4.png",
+        imagen: "/ramen/mepramenpepper.png",
 
         busqueda:
-            "ramen ramens noodle noodles fideos sopa spicy picante",
+            "ramen ramens noodle noodles fideos sopa spicy picante beef res black pepper pimienta negra EnHypen Corea Korea",
 
         descripcion:
-            "Ramen xyz.",
+            "Ramen Mep Black Pepper & Beef con contenido de 4 bolsas de 120g cada una.",
 
         contenido:
             "Contenido: consultar empaque.",
@@ -90,16 +90,16 @@ const productosRamen = [
 
 
     {
-        nombre: "Ramen xyz",
-        precio: "$300.00 MXN",
+        nombre: "Cheetos Mac And Cheese Flaming Hot Cajita",
+        precio: "$60.00 MXN",
 
-        imagen: "ramen/ramen5.png",
+        imagen: "/ramen/cheetosmacandcheese.png",
 
         busqueda:
-            "ramen ramens noodle noodles fideos sopa spicy picante",
+            "ramen ramens noodle noodles fideos sopa queso cheese spicy picante cheetos mac and cheese",
 
         descripcion:
-            "Ramen xyz.",
+            "Cheetos Mac And Cheese Flaming Hot Cajita de 170g.",
 
         contenido:
             "Contenido: consultar empaque.",
@@ -110,16 +110,16 @@ const productosRamen = [
 
 
     {
-        nombre: "Ramen xyz",
+        nombre: "Ramen Arih Truffle Bulgogi 4 Pack",
         precio: "$300.00 MXN",
 
-        imagen: "ramen/ramen6.png",
+        imagen: "/ramen/arihtrufflebulgogi.png",
 
         busqueda:
-            "ramen ramens noodle noodles fideos sopa spicy picante",
+            "ramen ramens noodle noodles fideos sopa spicy picante truffle bulgogi arih corea korea",
 
         descripcion:
-            "Ramen xyz.",
+            "Ramen Arih Truffle Bulgogi con contenido de 4 bolsas de 130g cada una.",
 
         contenido:
             "Contenido: consultar empaque.",
@@ -130,16 +130,16 @@ const productosRamen = [
 
 
     {
-        nombre: "Ramen xyz",
-        precio: "$300.00 MXN",
+        nombre: "Top Ramen Bowl Beef With Japanese Barbecue Sauce",
+        precio: "$80.00 MXN",
 
-        imagen: "ramen/ramen7.png",
+        imagen: "/ramen/topramengarlic.png",
 
         busqueda:
-            "ramen ramens noodle noodles fideos sopa spicy picante",
+            "ramen ramens noodle noodles fideos sopa spicy picante top beef japanese barbecue sauce",
 
         descripcion:
-            "Ramen xyz.",
+            "Ramen bowl con sabor a res con salsa de barbacoa japonesa 115g.",
 
         contenido:
             "Contenido: consultar empaque.",
@@ -150,16 +150,16 @@ const productosRamen = [
 
 
     {
-        nombre: "Ramen xyz",
-        precio: "$300.00 MXN",
+        nombre: "Ramen Sriracha Chicken Bowl",
+        precio: "$80.00 MXN",
 
-        imagen: "ramen/ramen8.png",
+        imagen: "/ramen/srirachachickenbowl.png",
 
         busqueda:
-            "ramen ramens noodle noodles fideos sopa spicy picante",
+            "ramen ramens noodle noodles fideos sopa spicy picante sriracha chicken bowl",
 
         descripcion:
-            "Ramen xyz.",
+            "Ramen Sriracha Chicken Bowl de 110g.",
 
         contenido:
             "Contenido: consultar empaque.",
