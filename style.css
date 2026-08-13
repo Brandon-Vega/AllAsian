@@ -110,6 +110,21 @@ body{
     display:block;
 }
 
+/* ==========================
+   TEXTO NAVBAR MÁS GRUESO
+========================== */
+
+.navbar a {
+    font-weight: 600;
+}
+
+/* Logo AllAsian */
+.navbar .logo,
+.navbar h1,
+.navbar h2 {
+    font-weight: 700;
+}
+
 /* CELULAR Y TABLET */
 @media(max-width:768px){
 
