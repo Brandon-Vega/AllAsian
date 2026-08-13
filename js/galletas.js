@@ -10,13 +10,13 @@
 const productosGalletas = [
 
     {
-        nombre: "Galleta xyz",
-        precio: "$300.00 MXN",
+        nombre: "Oreo Family Size Thins Tiramisu",
+        precio: "$200.00 MXN",
 
-        imagen: "galletas/galleta1.png",
+        imagen: "/galletas/oreotiramisu.png",
 
         busqueda:
-            "galleta galletas cookie cookies chip chocolate",
+            "galleta galletas cookie cookies café coffee chocolate tiramisu oreo",
 
         descripcion:
             "Galleta xyz.",
@@ -30,16 +30,16 @@ const productosGalletas = [
 
 
     {
-        nombre: "Galleta xyz",
-        precio: "$300.00 MXN",
+        nombre: "Caja Ritz Bits Pizza",
+        precio: "$150.00 MXN",
 
-        imagen: "galletas/galleta2.png",
+        imagen: "/galletas/ritzpizza.png",
 
         busqueda:
-            "galleta galletas cookie cookies chip chocolate",
+            "galleta galletas cracker pizza ritz snack",
 
         descripcion:
-            "Galleta xyz.",
+            "Ritz Bits Pizza Caja Conteido de 249g.",
 
         contenido:
             "Contenido: consultar empaque.",
@@ -50,16 +50,16 @@ const productosGalletas = [
 
 
     {
-        nombre: "Galleta xyz",
-        precio: "$300.00 MXN",
+        nombre: "Caja Teddy Grahams Strawberry",
+        precio: "$160.00 MXN",
 
-        imagen: "galletas/galleta3.png",
+        imagen: "/galletas/teddygrahamsstrawberry.png",
 
         busqueda:
-            "galleta galletas cookie cookies chip chocolate",
+            "galleta galletas cookie cookies grahams graham teddy strawberry fresa",
 
         descripcion:
-            "Galleta xyz.",
+            "Caja Teddy Grahams Strawberry Caja Conteido de 283g.",
 
         contenido:
             "Contenido: consultar empaque.",
@@ -70,16 +70,16 @@ const productosGalletas = [
 
 
     {
-        nombre: "Galleta xyz",
-        precio: "$300.00 MXN",
+        nombre: "Chips Ahoy Red Velvet",
+        precio: "$150.00 MXN",
 
-        imagen: "galletas/galleta4.png",
+        imagen: "/galletas/cahoyvelvet150.png",
 
         busqueda:
-            "galleta galletas cookie cookies chip chocolate",
+            "galleta galletas cookie cookies chip red velvet chips ahoy",
 
         descripcion:
-            "Galleta xyz.",
+            "Bolsa de galletaws chips ahoy red velvet contenido de 272g.",
 
         contenido:
             "Contenido: consultar empaque.",
@@ -90,16 +90,16 @@ const productosGalletas = [
 
 
     {
-        nombre: "Galleta xyz",
-        precio: "$300.00 MXN",
+        nombre: "Cheez It ft Coors Light",
+        precio: "$160.00 MXN",
 
-        imagen: "galletas/galleta5.png",
+        imagen: "/galletas/cheezitcoorslight.png",
 
         busqueda:
-            "galleta galletas cookie cookies chip chocolate",
+            "galleta galletas saladas salt cheez it coors light beer cerveza",
 
         descripcion:
-            "Galleta xyz.",
+            "Caja de galletas saladas de queso con sabor a cerveza Coors Light contenido de 351g.",
 
         contenido:
             "Contenido: consultar empaque.",
@@ -110,16 +110,16 @@ const productosGalletas = [
 
 
     {
-        nombre: "Galleta xyz",
-        precio: "$300.00 MXN",
+        nombre: "Caja Galletas Pillsbury Funfetti 28 Pack",
+        precio: "$500.00 MXN",
 
-        imagen: "galletas/galleta6.png",
+        imagen: "/galletas/pillsbury28pkfunfetti.png",
 
         busqueda:
-            "galleta galletas cookie cookies chip chocolate",
+            "galleta galletas cookie cookies chip funfetti chispas colores pillsbury",
 
         descripcion:
-            "Galleta xyz.",
+            "Caja de galletas Pillsbury Funfetti contenido de 28 bolsitas de galletas.",
 
         contenido:
             "Contenido: consultar empaque.",
@@ -130,16 +130,16 @@ const productosGalletas = [
 
 
     {
-        nombre: "Galleta xyz",
+        nombre: "Caja Galletas Scooby Doo",
         precio: "$300.00 MXN",
 
-        imagen: "galletas/galleta7.png",
+        imagen: "/galletas/scoobydoocookies.png",
 
         busqueda:
-            "galleta galletas cookie cookies chip chocolate",
+            "galleta galletas cookie cookies grahams canela scooby doo",
 
         descripcion:
-            "Galleta xyz.",
+            "Caja de galletas Scooby Doo sabor canela contenido de 311g.",
 
         contenido:
             "Contenido: consultar empaque.",
@@ -150,16 +150,16 @@ const productosGalletas = [
 
 
     {
-        nombre: "Galleta xyz",
-        precio: "$300.00 MXN",
+        nombre: "Bolsa Galletas Mothers ft Nerds",
+        precio: "$160.00 MXN",
 
-        imagen: "galletas/galleta8.png",
+        imagen: "/galletas/mothersnerds.png",
 
         busqueda:
-            "galleta galletas cookie cookies chip chocolate",
+            "galleta galletas cookie cookies dulce candy nerds mothers",
 
         descripcion:
-            "Galleta xyz.",
+            "Bolsa de galletas mothers con chispas de nerds contenido de 255g.",
 
         contenido:
             "Contenido: consultar empaque.",
